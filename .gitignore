@@ -1,0 +1,51 @@
+# =========================
+# OS & Editor Noise
+# =========================
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# =========================
+# Obsidian: Volatile UI State
+# =========================
+# These change every time you open a note, switch tabs, or resize a pane.
+# Tracking them guarantees merge conflicts across devices.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace*.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+
+# =========================
+# Obsidian: Cache & Indexes
+# =========================
+# Rebuilt automatically. Often large and device-specific.
+.obsidian/cache/
+.obsidian/copilot-index*.json
+.smart-connections/
+.smart-env/
+
+# =========================
+# Obsidian: Internal Trash
+# =========================
+# Prevents deleted notes from being "resurrected" on other machines.
+.trash/
+
+# =========================
+# Obsidian: Plugin Data (Sensitive)
+# =========================
+# Plugin data.json files often contain API keys, tokens, or local paths.
+# Keep them local. Your plugin settings can be re-entered manually.
+.obsidian/plugins/*/data.json
+
+# =========================
+# Optional: Large Attachments
+# =========================
+# Uncomment if you store large images/videos in your vault and don't want them in Git.
+# _attachments/images/
+# _attachments/videos/
